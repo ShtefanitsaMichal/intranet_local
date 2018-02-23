@@ -83,7 +83,7 @@
 							    <div class="row">
                    
                     <div class="col-md-3 col-sm-6 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="Q:\\01 QMS_SMP\SMP_QMS.html" target="_blank">
+                      <a class="portfolio-link" align="middle" href="qmsframe.html" target="_blank">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                             <p>Instrukcje SMP</p> 

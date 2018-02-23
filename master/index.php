@@ -1,6 +1,6 @@
 <!DOCTYPE html>
 <html lang="en">
-<?php header('\\172.20.1.30\qms$\01 QMS_SMP\SMP_QMS.html'); ?>
+  <?php header('\\172.20.1.30\qms$\01 QMS_SMP\SMP_QMS.html'); ?>
   <head>
 
     <meta charset="utf-8">
@@ -26,27 +26,28 @@
     <link href="css/agency.css" rel="stylesheet">
 
     <style>
+      
         
     </style>
 
   </head>
 
-  <body id="page-top" back>
+  <body id="page-top" class="">
 
 
 
     <!-- Navigation -->
-    <nav class="navbar navbar-expand-lg navbar-light bg-light left fixed-left">
+    <nav class="navbar navbar-expand-lg left fixed-left">
       <div class="container">
       <div class="col-8">
-        <a class="navbar-brand" href="#">
+        <a class="navbar-brand" style="padding-top: 0px;padding-right: 0px;padding-bottom: -15px;padding-left: -15px;" href="#">
           <img src="media/sanden_logo.png" class="img-fluid" alt="test" align="center" style="">
         </a>
       </div>  
         <div class="collapse navbar-collapse" id="navbarResponsive">
          <div class="col-12">
           <ul class="navbar-nav ">
-            <li class="row" align="right"  >
+            <li class="row" align="left"  >
               <p id="imieniny" class="text-muted"></p>
             </li>
           </ul>
@@ -68,7 +69,7 @@
 			<div class="tabbable tabs-left">
         
         <ul class="nav nav-tabs">
-					<li class="active"><a href="#home" data-toggle="tab">MAIN</a></li>
+					<li class="active"><a href="#home" data-toggle="tab">Main</a></li>
 					<li><a href="#services" data-toggle="tab">External sevices</a></li>
 					<li><a href="#web_apps" data-toggle="tab">Web applications</a></li>
           <li><a href="#dev_team" data-toggle="tab"><b>SMP</b> IT WEB Applications</a></li>
@@ -83,10 +84,11 @@
                   <h3 class="section-subheading text-muted">Main resources / Główne zasoby</h3>
                 </div>
                </div>
+
+                <!--QMS-->
 							    <div class="row">
-                   
                     <div class="col-md-3 col-sm-6 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="#" target="_blank">
+                      <a class="portfolio-link" align="middle" href="" target="_blank">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                             <p>Instrukcje SMP</p> 
@@ -98,25 +100,33 @@
                             QMS
                           </p>
                       </div>
-                      </a>
-                    </div>
-
-                    <div class="col-md-3 col-sm-6 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="#portfolioModal1" target="_blank">
-                        <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                            <p>Lista telofonów</p> 
-                          </div>
+                    </a>
+                  </div>
+                <!--/QMS--> 
+                  
+                <!--Phone List-->
+                  <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" align="middle" href="#portfolioModal1" target="_blank">
+                      <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                          <p>
+                            Lista telofonów
+                          </p> 
                         </div>
-                          <div class="portfolio-caption">
-                            <img class="img-fluid" src="media/phonelist.png" style="height:50px;" alt="">
-                            <p class="text-muted">Phone Number List</p>
-                          </div>
+                      </div>
+                      <div class="portfolio-caption">
+                        <img class="img-fluid" src="media/phonelist.png" style="height:50px;" alt="">
+                          <p class="text-muted">
+                            Phone Number List
+                          </p>
+                        </div>
                       </a>
                     </div>
+                  <!--/Phone List-->
 
+                  <!--Struktura organizacyjna-->
                     <div class="col-md-3 col-sm-6 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="#portfolioModal1" target="_blank">
+                      <a class="portfolio-link" align="middle" href="file:///X:/Human%20Resources/SMP%20Organization%20Structure/SMP%20organigram%20-%201.11.2017.pdf" target="_blank">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                             <p>Struktura organizacijna SMP</p> 
@@ -128,7 +138,9 @@
                           </div>
                       </a>
                     </div>
+                  <!--/Struktura organizacyjna-->
 
+                    <!--/Phone List-->
                     <div class="col-md-3 col-sm-6 portfolio-item">
                       <a class="portfolio-link" align="middle" href="#portfolioModal1">
                         <div class="portfolio-hover">
@@ -142,7 +154,9 @@
                           </div>
                         </a>
                     </div>
+                    <!--/Phone List-->
 
+                    <!--SanTouch Tools-->
                     <div class="col-md-3 col-sm-6 portfolio-item">
                       <a class="portfolio-link" align="middle" href="#portfolioModal1">
                         <div class="portfolio-hover">
@@ -154,19 +168,23 @@
                             <img class="img-fluid" src="media/gimmp.png" style="height:50px;" alt="">
                             <p class="text-muted">San-touch tool</p>
                           </div>
-                      </a>
-                    </div>
-              </div>                
-				    </div>
-          </div> 
-          
-					<div class="tab-pane" id="services"> 
-						<div class="">
-							<div class="row">
-                <div class="col-12 text-center">
-                  <h3 class="section-subheading text-muted">****External Services</h3>
-                </div>
-              </div>
+                        </a>
+                      </div>
+                    </div> 
+                    <!--SanTouch Tools-->
+
+			    	      </div>
+                </div> 
+                  <!--Zakładka 2-->
+					        <div class="tab-pane" id="services"> 
+					        	<div class="">
+					        		<div class="row">
+                        <div class="col-12 text-center">
+                          <h3 class="section-subheading text-muted">
+                            External Services
+                          </h3>
+                        </div>
+                      </div>
        
        
 
@@ -246,6 +264,20 @@
         </div>
          <!-- END SAP-->
 
+        </div>
+        <!--End Second row-->                 
+      </div>
+    </div>
+    
+    <div class="tab-pane" id="web_apps"> 
+      <div class="col-12 text-center">
+        <h3 class="section-subheading text-muted">WEB Applications / Aplikacje WEB</h3>
+        
+      </div>
+      
+      <div class="row">
+        
+        
         <!-- IBM Lotus-->
           <div class="col-md-3 col-sm-6 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://mail.sandensmp.pl/">
@@ -262,34 +294,20 @@
             </a>
           </div>
           <!--END IBM LOTUS-->
-        </div>
-      <!--End Second row-->                 
-						</div>
-					</div>
-				
-					<div class="tab-pane" id="web_apps"> 
-						<div class="col-12 text-center">
-                  <h3 class="section-subheading text-muted">WEB Applications / Aplikacje WEB</h3>
-                
-                </div>
-
-          <div class="row">
-
-         
-          <!--ZMT-->
-          <div class="col-md-3 col-sm-5 portfolio-item">
-            <a class="portfolio-link" align="middle" href="https://cloudgate.jp/g-sanden/">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <p>ZMT</p>
-                </div>
-              </div>
-              <div class="portfolio-caption">
-                <img class="img-fluid" src="media/zmt.png" style="height:30px; margin-top:10px; margin-bottom:10px;"  alt="">
-                <p class="text-muted">ZMT</p>
-              </div>
-            </a>
+        <!--ZMT-->
+        <div class="col-md-3 col-sm-5 portfolio-item">
+          <a class="portfolio-link" align="middle" href="https://cloudgate.jp/g-sanden/">
+          <div class="portfolio-hover">
+            <div class="portfolio-hover-content">
+              <p>ZMT</p>
+            </div>
           </div>
+          <div class="portfolio-caption">
+            <img class="img-fluid" src="media/zmt.png" style="height:30px; margin-top:10px; margin-bottom:10px;"  alt="">
+            <p class="text-muted">ZMT</p>
+          </div>
+        </a>
+      </div>
           <!--/ZMT-->
 
           <!--Asseco-->
@@ -380,7 +398,7 @@
 				<div class="">
 					<div class="row">
             <div class="col-12 text-center">
-              <h3 class="section-subheading text-muted">Developement team apps</h3>
+              <h3 class="section-subheading text-muted"><b>SMP</b> IT WEB Applications</h3>
             </div>
           </div>
 
@@ -480,13 +498,47 @@
 						 </div>
           </div>
 
-
           <!--SME APPS-->
             <div class="tab-pane" id="sme_apps"> 
 			        <div class="">
-    
-			        </div>
-            </div>
+                <div class="row">
+                  <div class="col-12 text-center">
+                    <h3 class="section-subheading text-muted"><b>SME</b> IT WEB Applications</a></h3>
+                  </div>
+                </div>
+                <!--1 APP-->
+                 <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" align="middle" href="https://smeapps.sanden-europe.fr/app/warranty-inspection/login">
+                      <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                          <p>Warranty inspection</p>
+                        </div>
+                      </div>
+                      <div class="portfolio-caption">
+                        <img class="img-fluid" src="media/warranty.png" style="height:50px;" alt="">
+                          <p class="text-muted">Warranty inspection</p>
+                      </div>
+                    </a>
+                  </div>
+                  <!--/1 APP-->
+
+                  <!--2 APP-->
+                 <div class="col-md-3 col-sm-6 portfolio-item">
+                    <a class="portfolio-link" align="middle" href="https://3dspace.sanden-europe.fr/">
+                      <div class="portfolio-hover">
+                        <div class="portfolio-hover-content">
+                          <p>3d experiance</p>
+                        </div>
+                      </div>
+                      <div class="portfolio-caption">
+                        <img class="img-fluid" src="media/3d.jpg" style="height:50px;" alt="">
+                          <p class="text-muted">3d experiance</p>
+                      </div>
+                    </a>
+                  </div>
+                  <!--/2 APP-->
+			          </div>
+              </div>
           <!--/SME APPS-->
         </div>
 			</div>
@@ -504,7 +556,7 @@
       <div class="container">
         <div class="row">
           <div class="col-md-4">
-            <span class="copyright">&copy; Sanden Intranet 2018</span>
+            <span class="copyright">&copy; Sanden Manufacturing Intranet 2018</span>
           </div>
           <div class="col-md-4">
             <ul class="list-inline social-buttons">
@@ -602,6 +654,5 @@
     </div>
 	
   </body>
-<?php require_once "js/nameday.php" ?>
-
+      <?php require_once "js/nameday.php" ?>
 </html>
