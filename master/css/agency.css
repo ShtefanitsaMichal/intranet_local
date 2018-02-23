@@ -5,7 +5,8 @@
  */
 body {
   overflow-x: hidden;
-  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
+  font-family: 'Roboto Slab', 'Helvetica Neue', Helvetica, Arial, sans-serif; 
+  background-image: url("img/img_large_1.jpg"); }
 
 p {
   line-height: 1.75; }
@@ -13,7 +14,7 @@ p {
 a {
   color: #005677; }
   a.active, a:active, a:focus, a:hover {
-    color: #fec503; }
+    color: #595750; }
 
 h1,
 h2,
@@ -179,18 +180,18 @@ header.masthead {
       -moz-transition: all ease 0.5s;
       transition: all ease 0.5s;
       opacity: 0;
-      background: rgb(0, 173, 238); }
+      background: #ffffff; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover:hover {
         opacity: 1; }
       #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content {
-            font-size: 14px;
+            font-size: 18px;
             position: right;
             top: 50%;
             width: 100%;
             height: auto;
             margin-top: 40px;
             text-align: center;
-            color: white; }
+            color: #337ab7; }
         #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content i {
           margin-top: -12px; }
         #portfolio .portfolio-item .portfolio-link .portfolio-hover .portfolio-hover-content h3,
