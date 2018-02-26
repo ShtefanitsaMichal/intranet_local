@@ -553,10 +553,17 @@
             <!--helpdesk-->
             <div class="tab-pane" id="IT_helpdesk">
               <div class="col-12 text-center">
-                <h3 class="section-subheading text-muted"><b>IT HELPDESK</b></h3>
+                <div class="col-md-6">
+                  <h3 class="section-subheading text-muted">
+                    <b>IT HELPDESK</b><br>
+                  </h3>
+                </div>
+                <div class="col-md-6">
+                  <a class="btn btn-primary" align="middle" href="http://helpdesk/front/central.php" target="_blank"> Zgłoś Ticket </a>
+                </div>
               </div>  
                 <div class="col-md-12">
-                    <div class="" align="left">
+                    <div class="col-md-6" align="left">
                       <ul>
                         <p><b>Mistrz IT</b> / Marcin Ankutowicz / <b>(151)</b></p>
                         <hr>
@@ -570,6 +577,7 @@
                         <p><b>Helpdesk</b> / Michał Sztefanica / <b>(155)</b></p>
                         <p><b>Helpdesk </b> / Maciej Łagocki / <b>(504)</b></p>
                         <hr>
+                        
                       </ul>
                     </div>
                   </div>
@@ -579,10 +587,17 @@
             <!--budynak helpdesk-->
             <div class="tab-pane" id="Budynek_helpdesk">
               <div class="col-12 text-center">
-                <h3 class="section-subheading text-muted"><b>Budynek HELPDESK</b></h3>
+                <div class="col-md-6">
+                  <h3 class="section-subheading text-muted">
+                    <b>Budynek HELPDESK</b><br>
+                  </h3>
+                </div>
+                <div class="col-md-6">
+                  <a class="btn btn-primary" align="middle" href="http://budynek/building/" target="_blank"> Zgłoś Ticket </a>
+                </div>
                   </div>  
                     <div class="col-md-12">
-                      <div class="" align="center">
+                      <div class="col-md-6" align="left">
                         <ul>
                           <p><b></b> / Marcin Pożyczka / <b>(343)</b></p>
                           <p><b></b> / Michał Sokółka /  <b>(351)</b></p>
