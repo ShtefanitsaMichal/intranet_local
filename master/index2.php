@@ -1,44 +1,47 @@
-<html>
-<head>
-  <meta charset="utf-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+<!DOCTYPE html>
+<html lang="en">
+  <?php header('\\172.20.1.30\qms$\01 QMS_SMP\SMP_QMS.html'); ?>
+  <head>
+
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="Michał Sztefanica" content="Sanden Intranet Starting Page">
 
     <title>SANDEN Start</title>
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-  
-  <link rel="stylesheet" href="bootstrap.vertical-tabs.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
-  <script src="js/nameday.js"></script>
-  <link href="css/agency.css" rel="stylesheet">
-  <style>
-     .modal-backdrop{
-     position:fixed;
-     top:0;
-     right:0;
-     bottom:0;
-     left:0;
-     background-color:white;
-    }    }
-  </style>
-</head>
+    <!-- Bootstrap core CSS -->
+    <link href="vendor/bootstrap/css/bootstrap.min.css" rel="stylesheet">
+    <!-- Custom fonts for this template -->
+    <link href="vendor/font-awesome/css/font-awesome.min.css" rel="stylesheet" type="text/css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
+    <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
+    <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/css/bootstrap.min.css">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+    <script src="js/nameday.js"></script>
 
-<body>
+    <!-- Custom styles for this template -->
+    <link href="css/agency.css" rel="stylesheet">
 
-  <div class="container">
-    <div class="row">
-      <nav class="navbar navbar-expand-lg left fixed-left">
+    <style>
+      
+        
+    </style>
+
+  </head>
+
+  <body id="page-top" class="">
+
+
+
+    <!-- Navigation -->
+    <nav class="navbar navbar-expand-lg left fixed-left">
       <div class="container">
       <div class="col-8">
-        <a class="navbar-brand" style="" href="#">
-          <img src="media/sanden_logo.png" class="col-6 text-fluid" alt="test" align="center" style="height:70px;">
+        <a class="navbar-brand" style="padding-top: 0px;padding-right: 0px;padding-bottom: -15px;padding-left: -15px;" href="#">
+          <img src="media/sanden_logo.png" class="img-fluid" alt="test" align="center" style="">
         </a>
       </div>  
         <div class="collapse navbar-collapse" id="navbarResponsive">
@@ -51,43 +54,39 @@
         </div>
       </div>
     </nav>
-    </div>
+       
 
-    
-   <section class="bg" id="portfolio">
-    <div class="row" style="min-height:600px;">
-      <div  class="col-6">
+      
+    <section class="bg" id="portfolio">
+      <div class="row">
+        <div class="container">
+          <div class="row">
+		        <div class="col-xs-12">
+
+
+		  
+			<!-- tabs -->
+			<div class="tabbable tabs-left">
         
-        <hr/>
-        <div class="col-xs-3"> <!-- required for floating -->
-         
-         
-         
-          <!-- Nav tabs -->
-          <ul class="nav nav-tabs tabs-left">
-            <li class="active"><a href="#main" data-toggle="tab">Main</a></li>
-            <li><a href="#services" data-toggle="tab">External sevices</a></li>
-            <li><a href="#web_apps" data-toggle="tab">Web applications</a></li>
-            <li><a href="#smp_apps" data-toggle="tab"><b>SMP</b> IT WEB Applications</a></a></li>
-            <li><a href="#sme_apps" data-toggle="tab"><b>SME</b> IT WEB Applications</a></a></li>
-            <li><a href="#helpdesk" data-toggle="tab"><b>SME</b> HELPDESK</a></a></li>
-          </ul>
-
-        </div>
+        <ul class="nav nav-tabs">
+					<li class="active"><a href="#home" data-toggle="tab">Main</a></li>
+					<li><a href="#services" data-toggle="tab">External sevices</a></li>
+					<li><a href="#web_apps" data-toggle="tab">Web applications</a></li>
+          <li><a href="#dev_team" data-toggle="tab"><b>SMP</b> IT WEB Applications</a></li>
+          <li><a href="#sme_apps" data-toggle="tab"><b>SME</b> IT WEB Applications</a></li>
+        </ul>
         
-
-
-        <div class="col-xs-9">
-          <!-- Tab panes -->
-          <div class="tab-content">
-
-           <!--Start Main--> 
-            <div class="tab-pane active" id="main">
-               <div class="col-12 text-center">
+				<div class="tab-content">
+					<div class="tab-pane active" id="home">                
+						<div class="">
+              <div class="row">
+                <div class="col-12 text-center">
                   <h3 class="section-subheading text-muted">Main resources / Główne zasoby</h3>
                 </div>
-              <!--QMS-->
-                  <div class="row">
+               </div>
+
+                <!--QMS-->
+							    <div class="row">
                     <div class="col-md-3 col-sm-6 portfolio-item">
                       <a class="portfolio-link" align="middle" href="" target="_blank">
                         <div class="portfolio-hover">
@@ -173,101 +172,105 @@
                       </div>
                     </div> 
                     <!--SanTouch Tools-->
-                  </div>
-                  <!--End Home-->  
 
-            <!--External Services-->      
-                  <div class="tab-pane" id="services">
-                    <div class="col-12 text-center">
-                      <h3 class="section-subheading text-muted">
+			    	      </div>
+                </div> 
+                  <!--Zakładka 2-->
+					        <div class="tab-pane" id="services"> 
+					        	<div class="">
+					        		<div class="row">
+                        <div class="col-12 text-center">
+                          <h3 class="section-subheading text-muted">
                             External Services
-                      </h3>
-                    </div>
-                    <div class="row">
-                    <div class="col-md-3 col-sm-6 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="https://cloudgate.jp/g-sanden/" target="_blank">
-                        <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                            <p>G-SUITE</p>
-                          </div>
+                          </h3>
                         </div>
-                        <div class="portfolio-caption">
-                          <img class="img-fluid" src="media/g-suite.png" style="height:50px;" alt="">
-                          <p class="text-muted">Sanden - Goole services</p>
-                        </div>
-                      </a>
-                    </div>
-
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                  <a class="portfolio-link" align="middle" href="http://www.sandensmp.pl" target="_blank">
-                    <div class="portfolio-hover">
-                      <div class="portfolio-hover-content">
-                        <p>Sanden webpage</p>
                       </div>
-                    </div>
-                    <div class="portfolio-caption">
-                        <img class="img-fluid" src="media/gimmp.png" style="height:50px;" alt="">
-                         <p class="text-muted">SMP website</p>
-                    </div>
-                  </a>
-                </div>
+       
+       
 
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                  <a class="portfolio-link" align="middle" href="https://borg.wolterskluwer.pl/">
-                    <div class="portfolio-hover">
-                      <div class="portfolio-hover-content">
-                        <p>LEX - Wolters Kluwer</p>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-caption">
-                        <img class="img-fluid" src="media/wolters1.png" style="height:50px;" alt="">
-                      <p class="text-muted">LEX</p>
-                    </div>
-                  </a>
-                </div>
-
-
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                  <a class="portfolio-link"  href="https://www.gotomeeting.com/">
-                    <div class="portfolio-hover">
-                      <div class="portfolio-hover-content">
-                       <p>Go To Meeting</p>
-                      </div>
-                    </div>
-
-                    <div class="portfolio-caption">
-                        <img class="img-fluid" src="media/gotomeeting.png" style="height:50px;" alt="">
-                    <p class="text-muted">Go to Meeting</p>
-                  </div>
-                  </a>
-                </div>
-
-                <!-- SAP -->
-                <div class="col-md-3 col-sm-6 portfolio-item">
-                <a class="portfolio-link" href="http://ncpwabp002.aaa.zu1.nec.co.jp:50000/irj/portal">
+            <div class="row">
+              <div class="col-md-3 col-sm-6 portfolio-item">
+                <a class="portfolio-link" align="middle" href="https://cloudgate.jp/g-sanden/" target="_blank">
                   <div class="portfolio-hover">
-                    <div align="middle" class="portfolio-hover-content">
-                      <p>G-Accounting System</p>
+                    <div class="portfolio-hover-content">
+                      <p>G-SUITE</p>
                     </div>
                   </div>
                   <div class="portfolio-caption">
-                    <img class="img-fluid" src="media/SAP-Logo.png" style="height:50px;" alt="">
-                    <p class="text-muted">SAP</p>
+                    <img class="img-fluid" src="media/g-suite.png" style="height:50px;" alt="">
+                    <p class="text-muted">Sanden - Goole services</p>
                   </div>
                 </a>
-                <div>
+              </div>
+
+          <div class="col-md-3 col-sm-6 portfolio-item">
+            <a class="portfolio-link" align="middle" href="http://www.sandensmp.pl" target="_blank">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <p>Sanden webpage</p>
+                </div>
+              </div>
+              <div class="portfolio-caption">
+                  <img class="img-fluid" src="media/gimmp.png" style="height:50px;" alt="">
+                   <p class="text-muted">SMP website</p>
+              </div>
+            </a>
+          </div>
+
+          <div class="col-md-3 col-sm-6 portfolio-item">
+            <a class="portfolio-link" align="middle" href="https://borg.wolterskluwer.pl/">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <p>LEX - Wolters Kluwer</p>
+                </div>
+              </div>
+              
+              <div class="portfolio-caption">
+                  <img class="img-fluid" src="media/wolters1.png" style="height:50px;" alt="">
+                <p class="text-muted">LEX</p>
+              </div>
+            </a>
+          </div>
+
+
+          <div class="col-md-3 col-sm-6 portfolio-item">
+            <a class="portfolio-link"  href="https://www.gotomeeting.com/">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                 <p>Go To Meeting</p>
+                </div>
+              </div>
+              
+              <div class="portfolio-caption">
+                  <img class="img-fluid" src="media/gotomeeting.png" style="height:50px;" alt="">
+              <p class="text-muted">Go to Meeting</p>
+            </div>
+            </a>
+          </div>
+
+         <!-- SAP -->
+        <div class="col-md-3 col-sm-6 portfolio-item">
+          <a class="portfolio-link" href="http://ncpwabp002.aaa.zu1.nec.co.jp:50000/irj/portal">
+            <div class="portfolio-hover">
+              <div align="middle" class="portfolio-hover-content">
+                <p>G-Accounting System</p>
+              </div>
+            </div>
+            <div class="portfolio-caption">
+              <img class="img-fluid" src="media/SAP-Logo.png" style="height:50px;" alt="">
+              <p class="text-muted">SAP</p>
+            </div>
+          </a>
+        </div>
          <!-- END SAP-->
-              </div>
-              </div>
-              </div>
-              </div>
-          <!--end External Services-->  
 
-
-
-            <div class="tab-pane" id="web_apps">
-              <div class="col-12 text-center">
+        </div>
+        <!--End Second row-->                 
+      </div>
+    </div>
+    
+    <div class="tab-pane" id="web_apps"> 
+      <div class="col-12 text-center">
         <h3 class="section-subheading text-muted">WEB Applications / Aplikacje WEB</h3>
         
       </div>
@@ -386,14 +389,14 @@
               </a>
             </div>
           <!--END IBM LOTUS-->
-            </div>
-      
-            </div>
-           <!-- END Fourth row-->    
-
-
-            <div class="tab-pane" id="smp_apps">
-              <div class="row">
+          </div>
+       <!-- END Fourth row-->                 
+				</div>
+				
+				
+			<div class="tab-pane" id="dev_team"> 
+				<div class="">
+					<div class="row">
             <div class="col-12 text-center">
               <h3 class="section-subheading text-muted"><b>SMP</b> IT WEB Applications</h3>
             </div>
@@ -491,10 +494,14 @@
                 <p class="text-muted">Lessons learned</p>
               </div>
             </a>
-          </div>  
-            </div>
-            <div class="tab-pane" id="sme_apps">
-               <div class="row">
+          </div>                
+						 </div>
+          </div>
+
+          <!--SME APPS-->
+            <div class="tab-pane" id="sme_apps"> 
+			        <div class="">
+                <div class="row">
                   <div class="col-12 text-center">
                     <h3 class="section-subheading text-muted"><b>SME</b> IT WEB Applications</a></h3>
                   </div>
@@ -529,66 +536,66 @@
                       </div>
                     </a>
                   </div>
-                  <!--/2 APP-->  
-
-            </div>
-            <!--helpdesk-->
-            <div class="tab-pane" id="helpdesk">
-              <div class="col-12 text-center">
-                <h3 class="section-subheading text-muted"><b>HELPDESK</b></h3>
+                  <!--/2 APP-->
+			          </div>
               </div>
-            </div>  
-              <div class="col-md-4">
-                <ul class="list-inline social-buttons">
-                  <li class="list-inline-item"  data-toggle="modal" data-target="#myModalIT">
-                    <p>IT HELPDESK</p>
-                  </li>
-                  <li class="list-inline-item"  data-toggle="modal" data-target="#myModalBudynek">
-                    <p>Budynek</p>
-                  </li>
-                </ul>
-              </div> 
-          
-            <!--/end_helpdesk-->
-          </div>
+          <!--/SME APPS-->
         </div>
-  </section>
-       
+			</div>
+			<!-- /tabs -->
+		</div>
+	</div>
+</div>
 
-  <!-- Footer -->
+</section>
+    
+
+
+    <!-- Footer -->
     <footer class="fixed-bottom">
       <div class="container">
         <div class="row">
           <div class="col-md-4">
             <span class="copyright">&copy; Sanden Manufacturing Intranet 2018</span>
           </div>
-          
+          <div class="col-md-4">
+            <ul class="list-inline social-buttons">
+              <li class="list-inline-item"  data-toggle="modal" data-target="#myModalIT">
+                <a href="#">
+                  <i class="fa fa-laptop"></i>
+                </a>
+              </li>
+              <li class="list-inline-item"  data-toggle="modal" data-target="#myModalBudynek">
+                <a href="#">
+                  <i class="fa fa-home"></i>
+                </a>
+              </li>
+      
+            </ul>
+          </div>
         </div>
       </div>
     </footer>
 
-  
-  
-  <?php require_once "js/nameday.php" ?>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
-  <script src="vendor/jquery/jquery.js"></script>
-  <script src="vendor/popper/popper.js"></script>
-  <script src="vendor/bootstrap/js/bootstrap.js"></script>
+    <!-- Bootstrap core JavaScript -->
+    <script src="vendor/jquery/jquery.js"></script>
+    <script src="vendor/popper/popper.js"></script>
+    <script src="vendor/bootstrap/js/bootstrap.js"></script>
 
     <!-- Plugin JavaScript -->
-  <script src="vendor/jquery-easing/jquery.easing.js"></script>
+    <script src="vendor/jquery-easing/jquery.easing.js"></script>
 
     <!-- Contact form JavaScript -->
-  <script src="js/jqBootstrapValidation.js"></script>
-  <script src="js/contact_me.js"></script>
+    <script src="js/jqBootstrapValidation.js"></script>
+    <script src="js/contact_me.js"></script>
 
     <!-- Custom scripts for this template -->
-  <script src="js/agency.js"></script>
+    <script src="js/agency.js"></script>
 
-  <!-- Modal IT HELPDESK -->
+     <!-- Modal IT HELPDESK -->
       <div class="modal fade" id="myModalIT" role="dialog">
       <div class="modal-dialog">
+
           <!-- Modal content-->
           <div class="modal-content">
             <div class="modal-header">
@@ -645,6 +652,7 @@
           </div>
       </div>
     </div>
-  
-</body>
+	
+  </body>
+      <?php require_once "js/nameday.php" ?>
 </html>
