@@ -90,7 +90,7 @@
 
               <!--QMS-->
                   <div class="row">
-                    <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="col-md-3 col-sm-5 portfolio-item">
                       <a class="portfolio-link" align="middle" href="" target="_blank">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
@@ -108,7 +108,7 @@
                 <!--/QMS--> 
                   
                 <!--Phone List-->
-                  <div class="col-md-3 col-sm-6 portfolio-item">
+                  <div class="col-md-3 col-sm-5 portfolio-item">
                     <a class="portfolio-link" align="middle" href="#portfolioModal1" target="_blank">
                       <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -128,7 +128,7 @@
                   <!--/Phone List-->
 
                   <!--Struktura organizacyjna-->
-                    <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="col-md-3 col-sm-5 portfolio-item">
                       <a class="portfolio-link" align="middle" href="file:///X:/Human%20Resources/SMP%20Organization%20Structure/SMP%20organigram%20-%201.11.2017.pdf" target="_blank">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
@@ -144,7 +144,7 @@
                   <!--/Struktura organizacyjna-->
 
                     <!--/Phone List-->
-                    <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="col-md-3 col-sm-5 portfolio-item">
                       <a class="portfolio-link" align="middle" href="#portfolioModal1">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
@@ -160,7 +160,7 @@
                     <!--/Phone List-->
 
                     <!--SanTouch Tools-->
-                    <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="col-md-3 col-sm-5 portfolio-item">
                       <a class="portfolio-link" align="middle" href="#portfolioModal1">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
@@ -186,7 +186,7 @@
                       </h3>
                     </div>
                     <div class="row">
-                    <div class="col-md-3 col-sm-6 portfolio-item">
+                    <div class="col-md-3 col-sm-5 portfolio-item">
                       <a class="portfolio-link" align="middle" href="https://cloudgate.jp/g-sanden/" target="_blank">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
@@ -200,7 +200,7 @@
                       </a>
                     </div>
 
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-5 portfolio-item">
                   <a class="portfolio-link" align="middle" href="http://www.sandensmp.pl" target="_blank">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content">
@@ -214,7 +214,7 @@
                   </a>
                 </div>
 
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-5 portfolio-item">
                   <a class="portfolio-link" align="middle" href="https://borg.wolterskluwer.pl/">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content">
@@ -230,7 +230,7 @@
                 </div>
 
 
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-5 portfolio-item">
                   <a class="portfolio-link"  href="https://www.gotomeeting.com/">
                     <div class="portfolio-hover">
                       <div class="portfolio-hover-content">
@@ -246,7 +246,7 @@
                 </div>
 
                 <!-- SAP -->
-                <div class="col-md-3 col-sm-6 portfolio-item">
+                <div class="col-md-3 col-sm-5 portfolio-item">
                 <a class="portfolio-link" href="http://ncpwabp002.aaa.zu1.nec.co.jp:50000/irj/portal">
                   <div class="portfolio-hover">
                     <div align="middle" class="portfolio-hover-content">
@@ -278,7 +278,7 @@
         
         
         <!-- IBM Lotus-->
-          <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://mail.sandensmp.pl/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -418,7 +418,7 @@
           <!--/IATF-->
 
           <!-- Piston data Visualisation-->
-          <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/dataview">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -434,7 +434,7 @@
           <!--/End Piston data visualisatiom-->
 
           <!--SMP Share-->
-          <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="https://share.sandensmp.pl/pydio/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -450,7 +450,7 @@
           <!--/SMP Share-->
           
           <!--Inventory Range-->
-          <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/invrng/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -466,7 +466,7 @@
           <!--/Inventory Range-->
           
           <!--IMS -->
-          <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/instrukcje-bpcs/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -481,7 +481,7 @@
           </div>
 
           <!-- IBM Lotus-->
-          <div class="col-md-3 col-sm-6 portfolio-item">
+          <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/lesson_learned/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
@@ -502,7 +502,7 @@
                   </div>
                 </div>
                 <!--1 APP-->
-                 <div class="col-md-3 col-sm-6 portfolio-item">
+                 <div class="col-md-3 col-sm-5 portfolio-item">
                     <a class="portfolio-link" align="middle" href="https://smeapps.sanden-europe.fr/app/warranty-inspection/login">
                       <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -518,7 +518,7 @@
                   <!--/1 APP-->
 
                   <!--2 APP-->
-                 <div class="col-md-3 col-sm-6 portfolio-item">
+                 <div class="col-md-3 col-sm-5 portfolio-item">
                     <a class="portfolio-link" align="middle" href="https://3dspace.sanden-europe.fr/">
                       <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
@@ -542,7 +542,7 @@
               </div>  
                   
                     <div  data-toggle="modal" data-target="#myModalIT">
-                      <div class="col-md-3 col-sm-6 portfolio-item">
+                      <div class="col-md-3 col-sm-5 portfolio-item">
                         <a class="portfolio-link" align="middle">
                           <div class="portfolio-hover">
                             <div class="portfolio-hover-content">
@@ -560,7 +560,7 @@
                            
                  
                     <div  data-toggle="modal" data-target="#myModalBudynek">
-                      <div class="col-md-3 col-sm-6 portfolio-item">
+                      <div class="col-md-3 col-sm-5 portfolio-item">
                         <a class="portfolio-link" align="middle">
                           <div class="portfolio-hover">
                             <div class="portfolio-hover-content">

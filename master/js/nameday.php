@@ -1,9 +1,9 @@
  <script>   
-        teraz=new Date()
-        dn=teraz.getDate()
-        tyg=teraz.getDay()
-        miech=(teraz.getMonth() + 1)
-        rok=(teraz.getYear() + 1900)
+      var  teraz=new Date()
+      var  dn=teraz.getDate()
+      var  tyg=teraz.getDay()
+      var  miech=(teraz.getMonth() + 1)
+      var  rok=(teraz.getYear() + 1900)
         
 if(tyg==0){tyg = "niedziela"}
         if(tyg==1){tyg = "poniedzałek"}
@@ -44,8 +44,6 @@ if(miech==11){miech = "listopad",im=listopad[dn - 1]}
 if(miech==12){miech = "grudzień",im=grudzień[dn - 1]}
         
         
-var imieniny = ("<p>  Dzisiaj jest:<b> " + tyg + ",  " + dn + " " + miech + ", " + rok + " roku. </b>" + "</p>" +
-    "<p> Imieniny:<b> " + im + "<b>. </p>");
-
+var imieniny = (tyg + ",  " + dn + " " + miech + ", " + rok  + "</p>" + "<p style='margin: 0 0 1px; class='col-md-6'> Imieniny:<b> " + im + "<b>. </p>");
 document.getElementById("imieniny").innerHTML = imieniny;    
 </script>
