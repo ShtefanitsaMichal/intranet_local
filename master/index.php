@@ -22,20 +22,9 @@
   <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
   <script src="js/nameday.js"></script>
   <link href="css/agency.css" rel="stylesheet">
-  <style>
-     .modal-backdrop{
-     position:fixed;
-     top:0;
-     right:0;
-     bottom:0;
-     left:0;
-     background-color:white;
-    }    }
-  </style>;
 </head>
 
 <body>
-
   <div class="container">
     <div class="row">
       <nav class="navbar navbar-expand-lg left fixed-left">
@@ -57,13 +46,9 @@
     
    <section class="bg" id="portfolio">
     <div class="row" style="min-height:600px;">
-      <div  class="col-6">
-        
+      <div  class="col-6">  
         <hr/>
-        <div class="col-xs-3"> <!-- required for floating -->
-         
-         
-         
+        <div class="col-xs-3"> <!-- required for floating -->               
           <!-- Nav tabs -->
           <ul class="nav nav-tabs tabs-left">
             <li class="active"><a href="#main" data-toggle="tab">Main</a></li>
@@ -71,14 +56,10 @@
             <li><a href="#web_apps" data-toggle="tab">Web applications</a></li>
             <li><a href="#smp_apps" data-toggle="tab"><b>SMP</b> IT WEB Applications</a></a></li>
             <li><a href="#sme_apps" data-toggle="tab"><b>SME</b> IT WEB Applications</a></a></li>
-            <li><a href="#IT_helpdesk" data-toggle="tab"><b>IT</b> HELPDESK</a></a></li>
-            <li><a href="#Budynek_helpdesk" data-toggle="tab"><b>Budynek</b> HELPDESK</a></a></li>
+            <li><a href="#IT_helpdesk" data-toggle="tab"><b>Helpdesk</b> IT</a></a></li>
+            <li><a href="#Budynek_helpdesk" data-toggle="tab"><b>Helpdesk</b> Building</a></a></li>
           </ul>
-
         </div>
-        
-
-
         <div class="col-xs-9">
           <!-- Tab panes -->
           <div class="tab-content">
@@ -111,11 +92,11 @@
                   
                 <!--Phone List-->
                   <div class="col-md-3 col-sm-5 portfolio-item">
-                    <a class="portfolio-link" align="middle" href="#portfolioModal1" target="_blank">
+                    <a class="portfolio-link" align="middle" href="file:///X:\General%20Affairs\Phone's%20numbers%20list\" target="_blank">
                       <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
                           <p>
-                            Lista telofonów
+                            Lista telefonów
                           </p> 
                         </div>
                       </div>
@@ -134,12 +115,17 @@
                       <a class="portfolio-link" align="middle" href="file:///X:/Human%20Resources/SMP%20Organization%20Structure/SMP%20organigram%20-%201.11.2017.pdf" target="_blank">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
-                            <p>Struktura organizacijna SMP</p> 
+                            <p>
+                              Struktura organizacijna SMP
+                          
+                            </p> 
                           </div>
                         </div>
                           <div class="portfolio-caption">
                             <img class="img-fluid" src="media/structure.png" style="height:50px;" alt="">
-                            <p class="text-muted">Struktura organizacijna SMP</p>
+                            <p class="text-muted">
+                              SMP organisation structure
+                              </p>
                           </div>
                       </a>
                     </div>
@@ -147,15 +133,16 @@
 
                     <!--/Phone List-->
                     <div class="col-md-3 col-sm-5 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="#portfolioModal1">
+                      <a class="portfolio-link" align="middle" href="file:///X:\General%20Affairs\Dokumenty%20podstawowe%20spółki\">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
-                            <p>Basic SMP data (NIP, REGON, KRS)</p> 
+                            <p>Podstaowe dokumenty spółki (NIP, REGON, KRS)</p> 
                           </div>
                         </div>
                           <div class="portfolio-caption">
                             <img class="img-fluid" src="media/info.png" style="height:50px;" alt="">
-                            <p class="text-muted">Podstaowe informacje SMP</p>
+                            <p class="text-muted"> Basic SMP data (NIP, REGON, KRS)</p>
+                              
                           </div>
                         </a>
                     </div>
@@ -163,7 +150,7 @@
 
                     <!--SanTouch Tools-->
                     <div class="col-md-3 col-sm-5 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="file:///X:\General%20Affairs\Phone's%20numbers%20list\!%20SAN-TOUCH%20TOOL.xlms">
+                      <a class="portfolio-link" align="middle" href="file:///X:\General%20Affairs\Phone's%20numbers%20list\" target="_blank">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                             <p>San - touch tool</p> 
@@ -184,7 +171,7 @@
                   <div class="tab-pane" id="services">
                     <div class="col-12 text-center">
                       <h3 class="section-subheading text-muted">
-                            External Services
+                            External Services / Usługi zewnętrzne
                       </h3>
                     </div>
                     <div class="row">
@@ -273,9 +260,7 @@
             <div class="tab-pane" id="web_apps">
               <div class="col-12 text-center">
         <h3 class="section-subheading text-muted">WEB Applications / Aplikacje WEB</h3>
-        
       </div>
-      
       <div class="row">    
         <!-- IBM Lotus-->
           <div class="col-md-3 col-sm-5 portfolio-item">
@@ -284,8 +269,7 @@
                 <div class="portfolio-hover-content">
                   <p>IBM Lotus Notes</p>
                 </div>
-              </div>
-              
+              </div>  
               <div class="portfolio-caption">
                 <img class="img-fluid" src="media/IBM_Notes_9_logo.png" style="width:50px;" alt="">
                 <p class="text-muted">Lotus Notes</p>
@@ -308,7 +292,6 @@
             </a>
           </div>
           <!--/ZMT-->
-
           <!--Asseco-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="https://hr.sandensmp.pl/AssecoHR/">
@@ -324,7 +307,6 @@
             </a>
           </div>
           <!--/Asseco-->
-
           <!--Sanden vision-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://172.20.1.41:13014">
@@ -339,8 +321,7 @@
               </div>
             </a>
           </div>
-          <!--/Sanden vision-->
-          
+          <!--/Sanden vision-->         
           <!--Sanden vision HVAC-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://172.20.1.41:13014">
@@ -355,8 +336,7 @@
               </div>
             </a>
           </div>
-          <!--/Sanden vision HVAC-->
-          
+          <!--/Sanden vision HVAC-->          
           <!--IMS -->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0021/ims/">
@@ -388,41 +368,35 @@
               </a>
             </div>
           <!--END IBM LOTUS-->
-          </div>
-      
+          </div>     
           </div>
           <!-- END Fourth row-->    
-
-
             <div class="tab-pane" id="smp_apps">
               <div class="row">
             <div class="col-12 text-center">
               <h3 class="section-subheading text-muted"><b>SMP</b> IT WEB Applications</h3>
             </div>
           </div>
-
-
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/iatf/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <p>IATF</p>
+                  <p>Normy ISO</p>
                 </div>
               </div>
               <div class="portfolio-caption">
                 <img class="img-fluid" src="media/pkn.png" style="width: 50px;"  alt="">
-                <p class="text-muted">Normy IATF</p>
+                <p class="text-muted">ISO norms</p>
               </div>
             </a>
           </div>
           <!--/IATF-->
-
           <!-- Piston data Visualisation-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/dataview">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <p>Data View</p>
+                  <p>Visualisacja danych MC 14/19/26</p>
                 </div>
               </div>
               <div class="portfolio-caption">
@@ -432,13 +406,12 @@
             </a>
           </div>
           <!--/End Piston data visualisatiom-->
-
           <!--SMP Share-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="https://share.sandensmp.pl/pydio/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <p>Sanden Share System</p>
+                  <p>System udostępnienie plików SMP</p>
                 </div>
               </div>
               <div class="portfolio-caption">
@@ -447,8 +420,7 @@
               </div>
             </a>
           </div>
-          <!--/SMP Share-->
-          
+          <!--/SMP Share-->      
           <!--Inventory Range-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/invrng/">
@@ -463,55 +435,52 @@
               </div>
             </a>
           </div>
-          <!--/Inventory Range-->
-          
+          <!--/Inventory Range-->          
           <!--IMS -->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/instrukcje-bpcs/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <p>BPCS instructions</p>
+                  <p>Instrukcje i narzędzia BPCS</p>
                 </div>
               </div>
               <div class="portfolio-caption">
                 <img class="img-fluid" src="media/bpcs.png" style="height:50px;" alt="">
-                <p class="text-muted">instructions </p>
+                <p class="text-muted">BPCS tools & instructions </p>
               </div>
             </a>
           </div>
-
           <!-- IBM Lotus-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/lesson_learned/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <p>Lessons Learned Base</p>
+                  <p>Baza doświadczeń</p>
                 </div>
               </div>
               <div class="portfolio-caption">
                 <img class="img-fluid" src="media/lessons_learned.png" style="height:50px;" alt="">
-                <p class="text-muted">Lessons learned</p>
+                <p class="text-muted">Lessons learned data base</p>
               </div>
             </a>
-          </div>
-          
+          </div> 
           <!--Galia Check-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/galia_check/">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <p>Galia Check</p>
+                  <p>Sprawdzanie Etykiet Galia</p>
                 </div>
               </div>
               <div class="portfolio-caption">
                 <img class="img-fluid" src="media/galia_check.png" style="height:50px;" alt="">
-                <p class="text-muted">Galia Check</p>
+                <p class="text-muted">Galia & nameplates check</p>
               </div>
             </a>
           </div>
           <!-- END Galia Check-->
 
-        </div>
+          </div>
             <div class="tab-pane" id="sme_apps">
                <div class="row">
                   <div class="col-12 text-center">
@@ -523,7 +492,7 @@
                     <a class="portfolio-link" align="middle" href="https://smeapps.sanden-europe.fr/app/warranty-inspection/login">
                       <div class="portfolio-hover">
                         <div class="portfolio-hover-content">
-                          <p>Warranty inspection</p>
+                          <p>Baza gwarancyjna</p>
                         </div>
                       </div>
                       <div class="portfolio-caption">
@@ -549,35 +518,39 @@
                     </a>
                   </div>
                   <!--/2 APP-->  
-
-            </div>
+              </div>
 
             <!--helpdesk-->
             <div class="tab-pane" id="IT_helpdesk">
               <div class="col-12 text-center">
                 <div class="col-md-6">
-                  <h3 class="section-subheading text-muted">
-                    <b>IT HELPDESK</b><br>
+                  <h3 class="">
+
+                    <b>HELPDESK IT</b><br>
+                   <hr> 
+                    <a class="btn btn-info" align="middle" href="http://helpdesk/front/central.php" target="_blank" style="margin-top: 15px;" > Zgłoś Ticket / Report ticket </a>
                   </h3>
+                  <hr>
+                  <h4>Lista osób kontaktowych </h4>
+                   <hr>
                 </div>
                 <div class="col-md-6">
-                  <a class="btn btn-primary" align="middle" href="http://helpdesk/front/central.php" target="_blank"> Zgłoś Ticket </a>
                 </div>
               </div>  
                 <div class="col-md-12">
-                    <div class="col-md-6" align="left">
+                    <div class="col-md-8" align="left">
                       <ul>
-                        <p><b>Mistrz IT</b> / Marcin Ankutowicz / <b>(151)</b></p>
+                        <p><b>Helpdesk</b> / Mateusz Koryczan / <b>(tel. 156)</b></p>
+                        <p><b>Helpdesk/DMS/BPCS</b> / Michał Sztefanica / <b>(tel. 155)</b></p>
+                        <p><b>Helpdesk/Networks </b> / Maciej Łagocki / <b>(tel. 504)</b></p>
                         <hr>
-                        <p><b>IT Administration</b> / Piotr Baszczyn / <b>(152)</b></p>
+                        <p><b>IT Administrator</b> / Piotr Baszczyn / <b>(tel. 152)</b></p>
                         <hr>
-                        <p><b>ERP/BPCS/DMS</b> / Łukasz Jakubowski / <b>(150)</b></p>
-                        <p><b>ERP/BPCS/DMS</b> / Piotr Bernacki / <b>(153)</b></p>
-                        <p><b>ERP/BPCS/DMS</b> / Tomasz Sakwa / <b>(154)</b></p>
+                        <p><b>ERP/BPCS/DMS</b> / Łukasz Jakubowski / <b>(tel. 150)</b></p>
+                        <p><b>ERP/BPCS/DMS</b> / Piotr Bernacki / <b>(tel. 153)</b></p>
+                        <p><b>ERP/BPCS/DMS</b> / Tomasz Sakwa / <b>(tel. 154)</b></p>
                         <hr>
-                        <p><b>Helpdesk</b> / Mateusz Koryczan / <b>(156)</b></p>
-                        <p><b>Helpdesk</b> / Michał Sztefanica / <b>(155)</b></p>
-                        <p><b>Helpdesk </b> / Maciej Łagocki / <b>(504)</b></p>
+                        <p><b>Mistrz IT</b> / Marcin Ankutowicz / <b>(tel. 151)</b></p>
                         <hr>   
                       </ul>
                     </div>
@@ -589,19 +562,25 @@
             <div class="tab-pane" id="Budynek_helpdesk">
               <div class="col-12 text-center">
                 <div class="col-md-6">
-                  <h3 class="section-subheading text-muted">
-                    <b>Budynek HELPDESK</b><br>
+                  <h3 class="">
+                    <b>Helpdesk Building / HELPDESK Budynek</b><br>
+                    <hr>
+                    <a class="btn btn-info" align="middle" href="http://budynek/building/" target="_blank"><b> Zgłoś Ticket / Report ticket </b> </a>
+                    <hr>
                   </h3>
+                  <h4>Lista osób kontaktowych </h4>
                 </div>
                 <div class="col-md-6">
-                  <a class="btn btn-primary" align="middle" href="http://budynek/building/" target="_blank"> Zgłoś Ticket </a>
                 </div>
                   </div>  
                     <div class="col-md-12">
                       <div class="col-md-6" align="left">
                         <ul>
-                          <p><b></b> / Marcin Pożyczka / <b>(343)</b></p>
-                          <p><b></b> / Michał Sokółka /  <b>(351)</b></p>
+                          <hr>
+                          <p><b>Reporting a failure</b> / Zgłaszanie awarii<b> (tel. 357)</b></p> 
+                          <hr>
+                          <p><b></b> / Marcin Pożyczka / <b>(tel. 343)</b></p>
+                          <p><b></b> / Michał Sokółka /  <b>(tel. 351)</b></p>
                         <hr>
                       </ul>
                     </div>
