@@ -1,3 +1,7 @@
+<?php require "db_connection.php"; ?>
+<?php require "get_ip.php"; ?>
+<?php require "trafic.php"; ?>
+
 <html>
 <head>
   <meta charset="utf-8">
@@ -6,7 +10,7 @@
     <meta name="description" content="">
     <meta name="Michał Sztefanica" content="Sanden Intranet Starting Page">
 
-    <title>SANDEN Start</title>
+  <title>SANDEN Start</title>
   <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
   
   <link rel="stylesheet" href="bootstrap.vertical-tabs.css">
@@ -27,7 +31,7 @@
      left:0;
      background-color:white;
     }    }
-  </style>
+  </style>;
 </head>
 
 <body>
@@ -43,11 +47,8 @@
       </div>  
         <div class="collapse navbar-collapse" id="navbarResponsive">
          <div class="col-12">
-          <ul class="navbar-nav ">
-            <li class="row" align="left"  >
-              <p id="imieniny" class="text-muted"></p>
-            </li>
-          </ul>
+          <div align="left" style="margin-top: 15px;" id="imieniny" class="text-muted"> </div>
+          
         </div>
       </div>
     </nav>
@@ -70,7 +71,8 @@
             <li><a href="#web_apps" data-toggle="tab">Web applications</a></li>
             <li><a href="#smp_apps" data-toggle="tab"><b>SMP</b> IT WEB Applications</a></a></li>
             <li><a href="#sme_apps" data-toggle="tab"><b>SME</b> IT WEB Applications</a></a></li>
-            <li><a href="#helpdesk" data-toggle="tab"><b>SME</b> HELPDESK</a></a></li>
+            <li><a href="#IT_helpdesk" data-toggle="tab"><b>IT</b> HELPDESK</a></a></li>
+            <li><a href="#Budynek_helpdesk" data-toggle="tab"><b>Budynek</b> HELPDESK</a></a></li>
           </ul>
 
         </div>
@@ -91,7 +93,7 @@
               <!--QMS-->
                   <div class="row">
                     <div class="col-md-3 col-sm-5 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="" target="_blank">
+                      <a class="portfolio-link" align="middle" href="file:///Q:\01%20QMS_SMP\SMP_QMS.html\" target="_blank">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                             <p>Instrukcje SMP</p> 
@@ -161,7 +163,7 @@
 
                     <!--SanTouch Tools-->
                     <div class="col-md-3 col-sm-5 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="#portfolioModal1">
+                      <a class="portfolio-link" align="middle" href="file:///X:\General%20Affairs\Phone's%20numbers%20list\!%20SAN-TOUCH%20TOOL.xlms">
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                             <p>San - touch tool</p> 
@@ -274,9 +276,7 @@
         
       </div>
       
-      <div class="row">
-        
-        
+      <div class="row">    
         <!-- IBM Lotus-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://mail.sandensmp.pl/">
@@ -293,20 +293,20 @@
             </a>
           </div>
           <!--END IBM LOTUS-->
-        <!--ZMT-->
-        <div class="col-md-3 col-sm-5 portfolio-item">
-          <a class="portfolio-link" align="middle" href="https://cloudgate.jp/g-sanden/">
-          <div class="portfolio-hover">
-            <div class="portfolio-hover-content">
-              <p>ZMT</p>
-            </div>
+          <!--ZMT-->
+          <div class="col-md-3 col-sm-5 portfolio-item">
+            <a class="portfolio-link" align="middle" href="https://cloudgate.jp/g-sanden/">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <p>ZMT</p>
+                </div>
+              </div>
+              <div class="portfolio-caption">
+                <img class="img-fluid" src="media/zmt.png" style="height:30px; margin-top:10px; margin-bottom:10px;"  alt="">
+                <p class="text-muted">ZMT</p>
+              </div>
+            </a>
           </div>
-          <div class="portfolio-caption">
-            <img class="img-fluid" src="media/zmt.png" style="height:30px; margin-top:10px; margin-bottom:10px;"  alt="">
-            <p class="text-muted">ZMT</p>
-          </div>
-        </a>
-      </div>
           <!--/ZMT-->
 
           <!--Asseco-->
@@ -388,10 +388,10 @@
               </a>
             </div>
           <!--END IBM LOTUS-->
-            </div>
+          </div>
       
-            </div>
-           <!-- END Fourth row-->    
+          </div>
+          <!-- END Fourth row-->    
 
 
             <div class="tab-pane" id="smp_apps">
@@ -493,8 +493,25 @@
                 <p class="text-muted">Lessons learned</p>
               </div>
             </a>
-          </div>  
-            </div>
+          </div>
+          
+          <!--Galia Check-->
+          <div class="col-md-3 col-sm-5 portfolio-item">
+            <a class="portfolio-link" align="middle" href="http://srvsmp0025/galia_check/">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <p>Galia Check</p>
+                </div>
+              </div>
+              <div class="portfolio-caption">
+                <img class="img-fluid" src="media/galia_check.png" style="height:50px;" alt="">
+                <p class="text-muted">Galia Check</p>
+              </div>
+            </a>
+          </div>
+          <!-- END Galia Check-->
+
+        </div>
             <div class="tab-pane" id="sme_apps">
                <div class="row">
                   <div class="col-12 text-center">
@@ -534,53 +551,66 @@
                   <!--/2 APP-->  
 
             </div>
+
             <!--helpdesk-->
-  
-            <div class="tab-pane" id="helpdesk">
+            <div class="tab-pane" id="IT_helpdesk">
               <div class="col-12 text-center">
-                <h3 class="section-subheading text-muted"><b>HELPDESK</b></h3>
+                <div class="col-md-6">
+                  <h3 class="section-subheading text-muted">
+                    <b>IT HELPDESK</b><br>
+                  </h3>
+                </div>
+                <div class="col-md-6">
+                  <a class="btn btn-primary" align="middle" href="http://helpdesk/front/central.php" target="_blank"> Zgłoś Ticket </a>
+                </div>
               </div>  
-                  
-                    <div  data-toggle="modal" data-target="#myModalIT">
-                      <div class="col-md-3 col-sm-5 portfolio-item">
-                        <a class="portfolio-link" align="middle">
-                          <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                              <p>IT HELPDESK</p>
-                            </div>
-                          </div>
-                          <div class="portfolio-caption">
-                            <img class="img-fluid" src="media/helpdesk.png" style="height:50px;" alt="">
-                          <p class="text-muted">IT HELPDESK</p>
-                        </div>
-                      </a>
+                <div class="col-md-12">
+                    <div class="col-md-6" align="left">
+                      <ul>
+                        <p><b>Mistrz IT</b> / Marcin Ankutowicz / <b>(151)</b></p>
+                        <hr>
+                        <p><b>IT Administration</b> / Piotr Baszczyn / <b>(152)</b></p>
+                        <hr>
+                        <p><b>ERP/BPCS/DMS</b> / Łukasz Jakubowski / <b>(150)</b></p>
+                        <p><b>ERP/BPCS/DMS</b> / Piotr Bernacki / <b>(153)</b></p>
+                        <p><b>ERP/BPCS/DMS</b> / Tomasz Sakwa / <b>(154)</b></p>
+                        <hr>
+                        <p><b>Helpdesk</b> / Mateusz Koryczan / <b>(156)</b></p>
+                        <p><b>Helpdesk</b> / Michał Sztefanica / <b>(155)</b></p>
+                        <p><b>Helpdesk </b> / Maciej Łagocki / <b>(504)</b></p>
+                        <hr>   
+                      </ul>
                     </div>
-                  </div> 
-                  
-                           
-                 
-                    <div  data-toggle="modal" data-target="#myModalBudynek">
-                      <div class="col-md-3 col-sm-5 portfolio-item">
-                        <a class="portfolio-link" align="middle">
-                          <div class="portfolio-hover">
-                            <div class="portfolio-hover-content">
-                              <p>Budynek HELPDESK</p>
-                            </div>
-                          </div>
-                          <div class="portfolio-caption">
-                            <img class="img-fluid" src="media/house.png" style="height:50px;" alt="">
-                          <p class="text-muted">Budynek HELPDESK</p>
-                        </div>
-                      </a>
+                  </div>
+                </div> 
+            <!--/end_helpdesk-->
+
+            <!--budynak helpdesk-->
+            <div class="tab-pane" id="Budynek_helpdesk">
+              <div class="col-12 text-center">
+                <div class="col-md-6">
+                  <h3 class="section-subheading text-muted">
+                    <b>Budynek HELPDESK</b><br>
+                  </h3>
+                </div>
+                <div class="col-md-6">
+                  <a class="btn btn-primary" align="middle" href="http://budynek/building/" target="_blank"> Zgłoś Ticket </a>
+                </div>
+                  </div>  
+                    <div class="col-md-12">
+                      <div class="col-md-6" align="left">
+                        <ul>
+                          <p><b></b> / Marcin Pożyczka / <b>(343)</b></p>
+                          <p><b></b> / Michał Sokółka /  <b>(351)</b></p>
+                        <hr>
+                      </ul>
                     </div>
-                  
-                
-                </ul>
+                  </div>
+                </div> 
               </div>
             </div>
-   
-          
-            <!--/end_helpdesk-->
+            <!--/end_ budynek helpdesk-->
+
           </div>
         </div>
   </section>
@@ -617,65 +647,6 @@
     <!-- Custom scripts for this template -->
   <script src="js/agency.js"></script>
 
-  <!-- Modal IT HELPDESK -->
-      <div class="modal fade" id="myModalIT" role="dialog">
-      <div class="modal-dialog">
-          <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Dział IT</h4>
-            </div>
-
-            <div class="modal-body">
-             <ul>
-               <p><b>Mistrz IT</b> / Marcin Ankutowicz / <b>(151)</b></p>
-               <hr>
-               <p><b>IT Administration</b> / Piotr Baszczyn / <b>(152)</b></p>
-               <hr>
-               <p><b>ERP/BPCS/DMS</b> / Łukasz Jakubowski / <b>(150)</b></p>
-               <p><b>ERP/BPCS/DMS</b> / Piotr Bernacki / <b>(153)</b></p>
-               <p><b>ERP/BPCS/DMS</b> / Tomasz Sakwa / <b>(154)</b></p>
-               <hr>
-               <p><b>Helpdesk</b> / Mateusz Koryczan / <b>(156)</b></p>
-               <p><b>Helpdesk</b> / Michał Sztefanica / <b>(155)</b></p>
-               <p><b>Helpdesk </b> / Maciej Łagocki / <b>(504)</b></p>
-               <hr>
-             </ul>
-            </div>
-
-            <div class="modal-footer">
-              <a class="portfolio-link" align="middle" href="http://helpdesk/front/helpdesk.public.php" target="_blank"> Zgłoś Ticket </a>
-              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
-            </div>
-          </div>
-        </div>
-      </div>
-
-
-      <!-- Modal content-->
-      <div class="modal fade" id="myModalBudynek" role="dialog">
-      <div class="modal-dialog">
-
-      <!-- Modal content-->
-          <div class="modal-content">
-            <div class="modal-header">
-              <h4 class="modal-title">Dział Utrzymania Budynku</h4>
-            </div>
-
-            <div class="modal-body">
-             <ul>
-               <p><b></b> / Marcin Pożyczka / <b>(343)</b></p>
-               <p><b></b> / Michał Sokółka /  <b>(351)</b></p>
-             </ul>
-            </div>
-
-            <div class="modal-footer ">
-              <a class="portfolio-link" align="middle" href="http://budynek/building/front/helpdesk.public.php?create_ticket=1" target="_blank"> Zgłoś Ticket </a>
-              <button type="button" class="btn btn-default" data-dismiss="modal">Zamknij</button>
-            </div>
-          </div>
-      </div>
-    </div>
-  
+ 
 </body>
 </html>
