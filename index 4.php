@@ -4,6 +4,13 @@
 
 <html>
 <head>
+   <!--[if lte IE 8]>
+  <script>
+    alert("Posiadasz stara wersje przeglądarki. Aktualizuj MS Internet Explorer lub skontaktuj się z działem IT");
+    window.location = "index.php";
+  </script>
+  <p>Thank you for closing the message box.</p>
+  <![endif]-->
   <meta charset="utf-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
@@ -141,7 +148,7 @@
                         </div>
                           <div class="portfolio-caption">
                             <img class="img-fluid" src="media/info.png" style="height:50px;" alt="">
-                            <p class="text-muted"> Basic SMP data (NIP, REGON, KRS)</p>
+                            <p class="text-muted"> Basic company documents (NIP, REGON, KRS)</p>
                               
                           </div>
                         </a>
@@ -169,25 +176,16 @@
 
             <!--External Services-->      
                   <div class="tab-pane" id="services">
+
                     <div class="col-12 text-center">
                       <h3 class="section-subheading text-muted">
                             External Services / Usługi zewnętrzne
                       </h3>
                     </div>
-                    <div class="row">
-                    <div class="col-md-3 col-sm-5 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="https://cloudgate.jp/g-sanden/" target="_blank">
-                        <div class="portfolio-hover">
-                          <div class="portfolio-hover-content">
-                            <p>G-SUITE</p>
-                          </div>
-                        </div>
-                        <div class="portfolio-caption">
-                          <img class="img-fluid" src="media/g-suite.png" style="height:50px;" alt="">
-                          <p class="text-muted">Sanden - Goole services</p>
-                        </div>
-                      </a>
-                    </div>
+                  <div class="row">
+
+
+                    
 
                 <div class="col-md-3 col-sm-5 portfolio-item">
                   <a class="portfolio-link" align="middle" href="http://www.sandensmp.pl" target="_blank">
@@ -234,6 +232,23 @@
                   </a>
                 </div>
 
+                <!--G-Suite-->
+                    <div class="col-md-3 col-sm-5 portfolio-item">
+                        <a class="portfolio-link" align="middle" href="https://cloudgate.jp/g-sanden/" target="_blank">
+                          <div class="portfolio-hover">
+                            <div class="portfolio-hover-content">
+                             <p>G-SUITE</p>
+                            </div>
+                          </div>
+                        <div class="portfolio-caption">
+                      <img class="img-fluid" src="media/g-suite.png" style="height:50px;" alt="">
+                    <p class="text-muted">
+                      Sanden - Goole services
+                    </p>
+                    </div>
+                    </a>
+                    </div>
+                <!--End G-Suite-->
                 <!-- SAP -->
                 <div class="col-md-3 col-sm-5 portfolio-item">
                 <a class="portfolio-link" href="http://ncpwabp002.aaa.zu1.nec.co.jp:50000/irj/portal">
@@ -312,12 +327,12 @@
             <a class="portfolio-link" align="middle" href="http://172.20.1.41:13014">
               <div class="portfolio-hover">
                 <div class="portfolio-hover-content">
-                  <p>Sanden Vision</p>
+                  <p>Sanden Vision  A1 & A2 </p>
                 </div>
               </div>
               <div class="portfolio-caption">
                 <img class="img-fluid" src="media/gimmp.png" style="height:50px;" alt="">
-                <p class="text-muted">Sanden Vision</p>
+                <p class="text-muted">Sanden Vision  A1 & A2 </p>
               </div>
             </a>
           </div>
@@ -347,12 +362,12 @@
               </div>
               <div class="portfolio-caption">
                 <img class="img-fluid" src="media/gimmp.png" style="height:50px;" alt="">
-                <p class="text-muted">IMS 1.0 </p>
+                <p class="text-muted">IMS 1.0 test </p>
               </div>
             </a>
           </div>
 
-          <!-- IBM Lotus-->
+          <!-- Magik info-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://pcsmpvm03/MagicInfo/">
               <div class="portfolio-hover">
@@ -365,9 +380,26 @@
                 <img class="img-fluid" src="media/minfo.png" style="width:50px;" alt="">
                 <p class="text-muted">Magic Info</p>
               </div>
-              </a>
-            </div>
-          <!--END IBM LOTUS-->
+            </a>
+          </div>
+          <!--END Magik info-->
+
+          <!-- Magik info-->
+          <div class="col-md-3 col-sm-5 portfolio-item">
+            <a class="portfolio-link" align="middle" href="http://srvsmp0021/sites/warehouse/SitePages/Home.aspx  ">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <p>Magazyn paczek</p>
+                </div>
+              </div>
+              
+              <div class="portfolio-caption">
+                <img class="img-fluid" src="media/parcel.png" style="width:50px;" alt="">
+                <p class="text-muted">Parcel warehouse</p>
+              </div>
+            </a>
+          </div>
+          <!--END Magik info-->
           </div>     
           </div>
           <!-- END Fourth row-->    
@@ -391,21 +423,7 @@
             </a>
           </div>
           <!--/IATF-->
-          <!-- Piston data Visualisation-->
-          <div class="col-md-3 col-sm-5 portfolio-item">
-            <a class="portfolio-link" align="middle" href="http://srvsmp0025/dataview">
-              <div class="portfolio-hover">
-                <div class="portfolio-hover-content">
-                  <p>Visualisacja danych MC 14/19/26</p>
-                </div>
-              </div>
-              <div class="portfolio-caption">
-                <img class="img-fluid" src="media/dataview.png" style="height:50px;" alt="">
-                <p class="text-muted" align="middle">Data Visualisation</p>
-              </div>
-            </a>
-          </div>
-          <!--/End Piston data visualisatiom-->
+         
           <!--SMP Share-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="https://share.sandensmp.pl/pydio/">
@@ -450,6 +468,23 @@
               </div>
             </a>
           </div>
+          
+           <!-- Piston data Visualisation-->
+          <div class="col-md-3 col-sm-5 portfolio-item">
+            <a class="portfolio-link" align="middle" href="http://srvsmp0025/dataview">
+              <div class="portfolio-hover">
+                <div class="portfolio-hover-content">
+                  <p>Visualisacja danych MC 14/19/26</p>
+                </div>
+              </div>
+              <div class="portfolio-caption">
+                <img class="img-fluid" src="media/dataview.png" style="height:50px;" alt="">
+                <p class="text-muted" align="middle">Data Visualisation <br> MC14/19/26</p>
+              </div>
+            </a>
+          </div>
+          <!--/End Piston data visualisatiom-->
+
           <!-- IBM Lotus-->
           <div class="col-md-3 col-sm-5 portfolio-item">
             <a class="portfolio-link" align="middle" href="http://srvsmp0025/lesson_learned/">
@@ -523,22 +558,26 @@
             <!--helpdesk-->
             <div class="tab-pane" id="IT_helpdesk">
               <div class="col-12 text-center">
-                <div class="col-md-6">
+                <div class="col-md-8">
                   <h3 class="">
-
-                    <b>HELPDESK IT</b><br>
-                   <hr> 
-                    <a class="btn btn-info" align="middle" href="http://helpdesk/front/central.php" target="_blank" style="margin-top: 15px;" > Zgłoś Ticket / Report ticket </a>
+                    <b>
+                      HELPDESK IT
+                    </b>
+                  
+                  <hr> 
+                    <a class="btn btn-info" align="middle" href="http://helpdesk/front/central.php" target="_blank" style="margin-top: 15px;" ><b> Zgłoś Ticket / Report ticket </b></a>
                   </h3>
                   <hr>
-                  <h4>Lista osób kontaktowych </h4>
-                   <hr>
+                    <h5>
+                      Lista osób kontaktowych / List of contact persons 
+                    </h5>
+                  <hr>
                 </div>
-                <div class="col-md-6">
+                <div class="col-md-12">
                 </div>
               </div>  
                 <div class="col-md-12">
-                    <div class="col-md-8" align="left">
+                    <div class="col-md-12" align="left">
                       <ul>
                         <p><b>Helpdesk</b> / Mateusz Koryczan / <b>(tel. 156)</b></p>
                         <p><b>Helpdesk/DMS/BPCS</b> / Michał Sztefanica / <b>(tel. 155)</b></p>
@@ -550,8 +589,8 @@
                         <p><b>ERP/BPCS/DMS</b> / Piotr Bernacki / <b>(tel. 153)</b></p>
                         <p><b>ERP/BPCS/DMS</b> / Tomasz Sakwa / <b>(tel. 154)</b></p>
                         <hr>
-                        <p><b>Mistrz IT</b> / Marcin Ankutowicz / <b>(tel. 151)</b></p>
-                        <hr>   
+                        <p><b>IT Supervisor</b> / Marcin Ankutowicz / <b>(tel. 151)</b></p>
+                        <hr>  
                       </ul>
                     </div>
                   </div>
@@ -561,26 +600,29 @@
             <!--budynak helpdesk-->
             <div class="tab-pane" id="Budynek_helpdesk">
               <div class="col-12 text-center">
-                <div class="col-md-6">
+                <div class="col-md-8">
                   <h3 class="">
-                    <b>Helpdesk Building / HELPDESK Budynek</b><br>
+                    <b>
+                      Helpdesk Building / HELPDESK Budynek
+                    </b>
+                   
                     <hr>
-                    <a class="btn btn-info" align="middle" href="http://budynek/building/" target="_blank"><b> Zgłoś Ticket / Report ticket </b> </a>
+                      <a class="btn btn-info" align="middle" href="http://budynek/building/" target="_blank"><b> Zgłoś Ticket / Report ticket </b> </a>
                     <hr>
                   </h3>
-                  <h4>Lista osób kontaktowych </h4>
+                  <h5>Lista osób kontaktowych / List of contact persons</h5>
                 </div>
                 <div class="col-md-6">
                 </div>
                   </div>  
                     <div class="col-md-12">
-                      <div class="col-md-6" align="left">
+                      <div class="col-md-12" align="left">
                         <ul>
                           <hr>
                           <p><b>Reporting a failure</b> / Zgłaszanie awarii<b> (tel. 357)</b></p> 
                           <hr>
-                          <p><b></b> / Marcin Pożyczka / <b>(tel. 343)</b></p>
-                          <p><b></b> / Michał Sokółka /  <b>(tel. 351)</b></p>
+                          <p><b>Facility Maint. Supervisor</b> / Marcin Pożyczka / <b>(tel. 343)</b></p>
+                          <p><b>Building engineer</b> / Michał Sokółka /  <b>(tel. 351)</b></p>
                         <hr>
                       </ul>
                     </div>
