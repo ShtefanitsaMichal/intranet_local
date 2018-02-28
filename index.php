@@ -1,6 +1,7 @@
-<?php require "db_connection.php"; ?>
-<?php require "get_ip.php"; ?>
-<?php require "trafic.php"; ?>
+
+<?php //require "db_connection.php"; ?>
+<?php //require "get_ip.php"; ?>
+<?php //require "trafic.php"; ?>
 
 <html>
 <head>
@@ -11,23 +12,18 @@
   </script>
   <p>Thank you for closing the message box.</p>
   <![endif]-->
+  
   <meta charset="utf-8">
-  <base href="http://www.example.com/" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
     <meta name="description" content="">
     <meta name="Michał Sztefanica" content="Sanden Intranet Starting Page">
 
   <title>SANDEN Start</title>
-  <link rel="stylesheet" href="http://netdna.bootstrapcdn.com/bootstrap/3.3.0/css/bootstrap.min.css">
-  
+  <link rel="stylesheet" href="css/bootstrap.min.css">
   <link rel="stylesheet" href="bootstrap.vertical-tabs.css">
-  <link href="https://fonts.googleapis.com/css?family=Montserrat:400,700" rel="stylesheet" type="text/css">
-  <link href='https://fonts.googleapis.com/css?family=Kaushan+Script' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Droid+Serif:400,700,400italic,700italic' rel='stylesheet' type='text/css'>
-  <link href='https://fonts.googleapis.com/css?family=Roboto+Slab:400,100,300,700' rel='stylesheet' type='text/css'>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.7/js/bootstrap.min.js"></script>
+ 
+ 
   <script src="js/nameday.js"></script>
   <link href="css/agency.css" rel="stylesheet">
 </head>
@@ -82,7 +78,7 @@
               <!--QMS-->
                   <div class="row">
                     <div class="col-md-3 col-sm-5 portfolio-item">
-                      <a class="portfolio-link" align="middle" href="file:///Q:\01%20QMS_SMP\SMP_QMS.html\" target="_blank">
+                      <a class="portfolio-link" align="middle" href="http://srvsmp0025/qms/SMP_QMS.html" target="_blank" >
                         <div class="portfolio-hover">
                           <div class="portfolio-hover-content">
                             <p>Instrukcje SMP</p> 
@@ -175,9 +171,8 @@
            
                   <!--End Home-->  
 
-            <!--External Services-->      
+                  <!--External Services-->      
                   <div class="tab-pane" id="services">
-
                     <div class="col-12 text-center">
                       <h3 class="section-subheading text-muted">
                             External Services / Usługi zewnętrzne
@@ -566,7 +561,7 @@
                     </b>
                   
                   <hr> 
-                    <a class="btn btn-info" align="middle" href="http://helpdesk/front/central.php" target="_blank" style="margin-top: 15px;" ><b> Zgłoś Ticket / Report ticket </b></a>
+                    <a class="btn btn-info" align="middle" href="http://helpdesk/front/ticket.form.php" target="_blank" style="margin-top: 15px;" ><b> Zgłoś Ticket / Report ticket </b></a>
                   </h3>
                   <hr>
                     <h5>
@@ -606,7 +601,7 @@
                     <b>
                       Helpdesk Building / HELPDESK Budynek
                     </b>
-                   
+                    
                     <hr>
                       <a class="btn btn-info" align="middle" href="http://budynek/building/" target="_blank"><b> Zgłoś Ticket / Report ticket </b> </a>
                     <hr>
@@ -653,8 +648,7 @@
   
   
   <?php require_once "js/nameday.php" ?>
-  <script src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
-  <script src="http://netdna.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+  
   <script src="vendor/jquery/jquery.js"></script>
   <script src="vendor/popper/popper.js"></script>
   <script src="vendor/bootstrap/js/bootstrap.js"></script>
