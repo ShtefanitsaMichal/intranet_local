@@ -8,7 +8,8 @@
    <!--[if lte IE 8]>
   <script>
     alert("Posiadasz stara wersje przeglądarki. Aktualizuj MS Internet Explorer lub skontaktuj się z działem IT");
-    window.location = "index.php";
+    window.location = "https://www.google.pl/";
+
   </script>
   <p>Thank you for closing the message box.</p>
   <![endif]-->
@@ -39,14 +40,26 @@
         </a>
       </div>  
         <div class="collapse navbar-collapse" id="navbarResponsive">
-         <div class="col-12">
-          <div align="left" style="margin-top: 15px;" id="imieniny" class="text-muted"> </div>
-          
+          <div class="col-12">
+            <div align="left" style="margin-top: 15px;" id="imieniny" class="text-muted"> 
+            </div>
+          </div>
         </div>
+      </nav>
+      <div class="row">
+        <div class="col-md-12">
+          <form action="http://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+            <div class="form-group">
+                    <input name="sitesearch" type="hidden" value="">
+                    <input autocomplete="on" class="form-controls search" name="q" placeholder="" required="required"  type="text">
+                    <button class="btn btn-info" type="submit">Search in Google</button>
+                </div>    
+              </form>
+            </div>
       </div>
-    </nav>
-  </div>
+    </div>
 
+  
     
    <section class="bg" id="portfolio">
     <div class="row" style="min-height:600px;">
@@ -62,6 +75,9 @@
             <li><a href="#sme_apps" data-toggle="tab"><b>SME</b> IT WEB Applications</a></a></li>
             <li><a href="#IT_helpdesk" data-toggle="tab"><b>Helpdesk</b> IT</a></a></li>
             <li><a href="#Budynek_helpdesk" data-toggle="tab"><b>Helpdesk</b> Building</a></a></li>
+            <li>
+             
+            </li>
           </ul>
         </div>
         <div class="col-xs-9">
@@ -630,7 +646,7 @@
 
           </div>
         </div>
-  </section>
+
        
 
   <!-- Footer -->
