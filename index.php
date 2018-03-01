@@ -76,7 +76,16 @@
             <li><a href="#IT_helpdesk" data-toggle="tab"><b>Helpdesk</b> IT</a></a></li>
             <li><a href="#Budynek_helpdesk" data-toggle="tab"><b>Helpdesk</b> Building</a></a></li>
             <li>
-             
+              <form action="http://www.google.com/search" class="searchform" method="get" name="searchform" target="_blank">
+                <div class="form-group">
+                  <input name="sitesearch" type="hidden" value="">
+                    <input autocomplete="on" class="form-controls search" name="q" placeholder="Search in google" required="required"  type="text">
+                      <br>
+                      <button class="form-controls btn btn-info" type="submit">
+                        Wyszukaj w google 
+                      </button>
+                    </div>    
+              </form>
             </li>
           </ul>
         </div>
